@@ -104,7 +104,7 @@
 		<repository>
 			<id>github-m3</id>
 			<name>GitHub Packages — m3-audit-starter</name>
-			<url>https://maven.pkg.github.com/m3verificaciones/m3-audit-starter</url>
+			<url>https://maven.pkg.github.com/CarlosJoaoIpiales/m3-audit-starter</url>
 		</repository>
 	</distributionManagement>
 
