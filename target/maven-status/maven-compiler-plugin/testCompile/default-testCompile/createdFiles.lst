@@ -1,0 +1,13 @@
+com\m3verificaciones\appweb\audit\sampleapp\UnauditedThing.class
+com\m3verificaciones\appweb\audit\sampleapp\UnauditedEntityTest.class
+com\m3verificaciones\appweb\audit\sampleapp\UnauditedThingRepository.class
+com\m3verificaciones\appweb\audit\schema\AuditSchemaVerifierFailureTest.class
+com\m3verificaciones\appweb\audit\model\AuditActionTest.class
+com\m3verificaciones\appweb\audit\sampleapp\AuditRevisionListenerIntegrationTest.class
+com\m3verificaciones\appweb\audit\sampleapp\WidgetService$SampleAppRollbackException.class
+com\m3verificaciones\appweb\audit\sampleapp\Widget.class
+com\m3verificaciones\appweb\audit\sampleapp\WidgetRepository.class
+com\m3verificaciones\appweb\audit\sampleapp\AuditLogWriterRollbackTest.class
+com\m3verificaciones\appweb\audit\sampleapp\SampleAppApplication.class
+com\m3verificaciones\appweb\audit\schema\AuditTablesSchemaFilterProviderTest.class
+com\m3verificaciones\appweb\audit\sampleapp\WidgetService.class

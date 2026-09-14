@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  AD-7: committed, token-free. The actual credential is read from the
+  GITHUB_TOKEN environment variable at build time (CI's own token, or a
+  locally exported PAT with read:packages) -- never written to this file.
+  Used with `-s .mvn/settings-ci.xml` on every Maven invocation that needs to
+  resolve or publish com.m3verificaciones.appweb:m3-audit-starter.
+-->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+	<servers>
+		<server>
+			<id>github-m3</id>
+			<username>${env.GITHUB_ACTOR}</username>
+			<password>${env.GITHUB_TOKEN}</password>
+		</server>
+	</servers>
+</settings>

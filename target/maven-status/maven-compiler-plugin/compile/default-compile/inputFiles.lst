@@ -1,0 +1,15 @@
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\autoconfigure\AuditAutoConfiguration.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\autoconfigure\AuditProperties.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\envers\AuditRevisionListener.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\event\AuditEvent.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\event\AuditEventPublisher.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\event\AuditLogWriter.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\model\AuditAction.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\model\AuditLog.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\model\AuditRevision.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\repository\AuditLogRepository.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\schema\AuditSchemaVerifier.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\schema\AuditTablesSchemaFilterProvider.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\schema\MetadataCapturingIntegrator.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\support\CurrentActorResolver.java
+C:\DEV\PROJECTS\iot-platform\athenea-release\m3-audit-starter\src\main\java\com\m3verificaciones\appweb\audit\web\AccessDeniedAuditor.java

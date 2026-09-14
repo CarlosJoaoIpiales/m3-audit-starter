@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "m3.audit",
+      "type": "com.m3verificaciones.appweb.audit.autoconfigure.AuditProperties",
+      "sourceType": "com.m3verificaciones.appweb.audit.autoconfigure.AuditProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "m3.audit.migration-hint",
+      "type": "java.lang.String",
+      "description": "Included verbatim in {@link com.m3verificaciones.appweb.audit.schema.AuditSchemaVerifier} failure messages, so a stale\/missing migration names the fix, not just the symptom (AD-1).",
+      "sourceType": "com.m3verificaciones.appweb.audit.autoconfigure.AuditProperties",
+      "defaultValue": "Apply the owning migration in iot-platform-user-backend\/database\/migrations before deploying this service (002-create-audit-core.sql for audit_logs\/revinfo, or the *-create-*-aud-tables.sql migration owned by this service)."
+    },
+    {
+      "name": "m3.audit.service-name",
+      "type": "java.lang.String",
+      "description": "Required. Identifies this service in {@code revinfo.service_name} \/ {@code audit_logs.service_name}.",
+      "sourceType": "com.m3verificaciones.appweb.audit.autoconfigure.AuditProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
