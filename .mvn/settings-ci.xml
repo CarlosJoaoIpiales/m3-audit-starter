@@ -2,7 +2,7 @@
 <!--
   AD-7: committed, token-free. The actual credential is read from the
   GITHUB_TOKEN environment variable at build time (CI's own token, or a
-  locally exported PAT with read:packages) -- never written to this file.
+  locally exported PAT with read:packages), never written to this file.
   Used with `-s .mvn/settings-ci.xml` on every Maven invocation that needs to
   resolve or publish com.m3verificaciones.appweb:m3-audit-starter.
 -->
